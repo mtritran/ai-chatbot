@@ -1,0 +1,17 @@
+package com.manhtri.ai_chatbot.dto;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class MessageRequest {
+    String conversationId;
+    String message;
+    String model;
+}
