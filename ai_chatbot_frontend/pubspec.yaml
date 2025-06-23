@@ -1,0 +1,48 @@
+﻿name: ai_chatbot_frontend
+description: "AI Chatbot Flutter Frontend"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # HTTP client for API calls
+  http: ^1.1.0
+  
+  # State management
+  provider: ^6.1.1
+  
+  # JSON serialization
+  json_annotation: ^4.8.1
+  
+  # UUID generation
+  uuid: ^4.2.1
+  
+  # Date formatting
+  intl: ^0.19.0
+  
+  # Markdown rendering for AI responses
+  flutter_markdown: ^0.6.18
+  
+  # URL launcher for links
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  
+  # JSON code generation
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
